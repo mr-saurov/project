@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background: #000000;
+    color: white;
+    font-family: poppins;
+}
+header{
+    padding: 20px 10%;
+}
+.container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+.container .logo{
+    font-size: 3.5rem;
+    font-weight: 800;
+    left: 5px;
+    position: absolute;
+    padding: auto;
+}
+.container .logo span{
+    color: #ffc800;
+}
+.container .logo:hover{
+    color: #ffc800;
+    transition: 0.4s ease-in-out;
+}
+.list-order{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    list-style: none;
+    padding-right: 1.5em;
+}
+.list-order li a{
+    text-decoration: none;
+    color: white;
+}
+.list-order li a:hover{
+    color: #ffc800;
+    transition: 0.3s ease-in-out;
+}
+.login-btn button{
+        font-size: 25px;
+        
+        
+}
+.login-btn button a{
+    text-decoration: none;
+    color: white;
+    background-color: #000000;
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 5px 10px;
+}
+.login-btn button a:hover{
+    background-color: #ffc800;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+/*Hero section*/
+.hero-container{
+    display: flex;
+    padding: 10px 5%;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    
+}
+.hero-container .info p{
+    width: 50%;
+}
+.hero-container .info h1 span{
+    color: #ffc800;
+}
+
+.img-of-hero{
+    width: 70%;
+}
+.img-of-hero img{
+    width: 100%;
+    right: 10%;
+}
+/*login start*/
+.Login-form{
+    padding: 30px 10%;
+}
+.Login-form .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    position: relative;
+    margin-top: 200px;
+}
+#username, #password{
+    border: #ffc800 solid 2px;
+    border-radius: 13px;
+    padding: 5px 15px;
+}
+#username:hover, #password:hover{
+    background-color: #ffc800;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+.login-btn-form{
+    border: #ffc800 solid 2px;
+    border-radius: 14px;
+    padding: 5px 10px;
+}
+.login-btn-form:hover{
+    background-color: #ffc800;
+    color: #000000;
+    transition: 0.3s ease-in-out;
+}
+.frgt-pw a, .signup-form a{
+text-decoration: none;
+}
+.frgt-pw a:hover, .signup-form a:hover{
+    color: #ffc800;
+}
+/*social site start*/
+.socialmediacontainer{
+    margin: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.facebook{
+    
+}

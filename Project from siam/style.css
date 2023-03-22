@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-color: rgba(254, 235, 228, 0.338);
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    background: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position-x: 500px;
+    background-position-y: 230px;
+}
+.header{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 45px;
+    gap: 45px;
+    
+    
+}
+.header .developer{
+    width: 75px;
+    height: 700px;
+}
+
+.nav{
+    display: flex;
+}
+.logo{
+    font-size: 24px;
+}
+.logo span{
+    color: orange;
+}
+
+.navwithbtn{
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    right: 20%;
+    gap: 35px;
+}
+.navwithbtn ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 12px;
+    margin-right: 140px;
+    align-items: center;
+    
+}
+.navwithbtn ul li{
+    list-style: none;
+    text-decoration: none;
+}
+.navwithbtn ul li a{
+    text-decoration: none;
+    color: rgb(147, 132, 132);
+}
+.btn{
+    position: absolute;
+    padding: 15px 35px;
+    font-size: 14px;
+    color: rgba(7, 7, 7, 0.751);
+    font-weight: 600;
+    background-color: rgb(255, 166, 0);
+    margin-top: 2px;
+    right: 00px;
+    border-radius: 8px;
+    border: 1px solid orange;
+}
+.man-image{
+    margin-left: 37%;
+    margin-top: 8%;
+    
+}
+.text-with-dn-btn{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding:  200px 0 0 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.text-with-dn-btn h3{
+    font-size: 34px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.623);
+}
+.text-with-dn-btn h1{
+    font-weight: 800;
+    font-size: 70px;
+    padding: 20px 0 30px 0;
+    
+}
+.text-with-dn-btn p{
+    font-weight: 50;
+    font-size: small;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.double-btn{
+    margin-top: 30px;
+}
+.double-btn button{
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 8px 15px;
+    
+}
+.double-btn .b1{
+    color: white;
+    background-color: orange;
+}
+.double-btn .b2{
+    color: orange;
+}
+
+
+
+
+
+/* about me*/
+.about-me-container{
+    margin: 120px 180px;
+    background-color: rgba(250, 235, 215, 0.432);
+    padding: 100px 0;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+.about-me{
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+ text-align: center;
+ color: rgba(37, 33, 33, 0.642);
+}
+.about-me h1{
+    color: rgba(0, 0, 0, 0.831);
+}
+.about-me p{
+    margin: 0 11%;
+    font-size: 16px;
+    font-weight: 1;
+}
+.details{
+    
+}
+.details .list{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.details .list li{
+    list-style: none;
+    font-size: 15px;
+    color: rgba(37, 33, 33, 0.642);
+}
+.details .list li b{
+    color: rgba(0, 0, 0, 0.756);
+}
+
+
+
+
+/*What I do*/
+.what-i-do-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 30px 100px;
+    text-align: center;
+    gap: 20px;
+}
+.what-i-do-container p{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.532);
+}
+.icon-with-text-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon-with-text-container .icon{
+    width: 180px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+.icon-with-text-container .icon img{
+    width: 30%;
+}
+.icon-with-text-container .icon p{
+    color: rgba(0, 0, 0, 0.594);
+}
+
+
+
+/*sumeery of resume*/
+.summery-resume{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 10% 15%;
+    
+}
+.summery-resume h5{
+    color: rgba(0, 0, 0, 0.753);
+}
+.summery-resume h2{
+    text-align: center;
+    
+}
+.qualification{
+    display: flex;
+}
+.education{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+    
+}
+.education p{
+    width: 90%;
+    color: rgba(0, 0, 0, 0.753);
+}
+.education h3{
+    text-align: center;
+    
+
+}
+.education .p1{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.653);
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+.experience h3{
+    text-align: center;
+
+}
+.experience p{
+    width: 90%;
+    color: rgba(0, 0, 0, 0.753);
+    
+}
+.experience .p1{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.653);
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.summery-resume button{
+    font-weight: 700;
+    color: white;
+    background-color: orange;
+    border: orange;
+    border-radius: 2px;
+    width: 15%;
+    padding: 12px 20px;
+    margin-left: 39%;
+}
+
+
+
+
+
+/*Bottom*/
+.bottom{
+    background-color: rgba(250, 235, 215, 0.432);
+
+}
+.bottom .content{
+    display: flex;
+    justify-content: space-between;
+    padding: 10% 15%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-;
+    gap: 20px;
+    width: 50%;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.message input, textarea{
+    border: rgba(250, 235, 215, 0.432);
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+.message button{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding: 10px  ;
+    color: white;
+    background-color: orange;
+    border: orange;
+    border-radius: 5px;
+}
